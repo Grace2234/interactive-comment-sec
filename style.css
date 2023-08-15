@@ -80,17 +80,17 @@ body{
 
 
 
-.big #comment{
-    font-size: 12px;
-    margin: 0 0 0 10px;
-    color: hsl(212, 19%, 41%);
-    
-}
+
 #com{
     width: 90%;
     /* border: 1px solid yellow; */
+    margin: 0 0 0 10px;
 }
-
+#comment{
+    font-size: 13px;
+    color: hsl(212, 19%, 41%);
+    
+}
 
 
 /* ....COMMENT-BOX... */
@@ -160,51 +160,135 @@ body{
 }
 #two{
     width: 30%;
-   
-
 }
+
+/*... SECOND-BOX ...*/
+
+
+
+#first-con2{
+    width: 40%;
+    height: 7rem;
+    /* border: 2px solid red; */
+    position: relative;
+    margin-left: 23rem;
+    margin-top: 2rem;
+    display: flex;
+    background: white;
+    border-radius: 5px;
+   
+}
+
+#small2{
+    width: 6rem;
+    height: 5rem;
+    
+    background: hsl(223, 19%, 93%);
+    margin: 10px 0 0 10px;
+    display: block;
+    border-radius: 6px;
+}
+#small2 img{
+    margin: 0 0 0 14px;
+}
+#small2 #score{
+    margin: 8px 0 0 10px;
+    color: hsl(212, 24%, 26%);
+}
+#image-con2{
+    width: 105%;
+    height: 2.8rem;
+    
+    margin: 10px 0 0 10px;
+    display: flex;
+}
+#image-con h4{
+    color: hsl(212, 24%, 26%);
+}
+#imgc2{
+    width: 4rem;
+    height: 2.8rem;
+   
+}
+#imgc2 img{
+    width: 60%;
+    height: 70%;
+}
+#time-created{
+    margin: 4px 0 0 10px;
+    font-size: 13px;
+    font-weight: 200px;
+    color: hsl(211, 10%, 45%);
+}
+#img22{
+    width: 5rem;
+    margin: 0 0 0 8rem;
+    
+}
+#img22 span{
+    color: rgb(60, 60, 200);
+    font-size: 14px;
+}
+
+
+
+
+#com2{
+    width: 90%;
+    
+    margin: 0 0 0 10px;
+}
+#comment2{
+    font-size: 12px;
+    color: hsl(212, 19%, 41%);
+    
+}
+
+
 @media screen and (max-width: 800px) {
     #first-con{
-        width: 100%;
+        width: 90%;
         height: 9rem;
-        /* border: 2px solid red; */
-        margin: 0 0 8px 0;
+        
+        /* margin: 0 0 8px 0; */
         /* display: flex;
         background: white;
         border-radius: 5px; */
+        background: rgb(255, 255, 255);
+        margin: auto;
+        margin-bottom: 10px;
        
     }
-    #second-con{
-        width: 100%;
-        height: 7rem;
-        /* border: 2px solid red; */
-        margin: 0;
-        padding: 0 15rem 0 0;
+
+
+    #com{
+        width: 90%;
+       margin: 0 0 0 10px;
+       
+    }
+    #comment{
+        font-size: 12px;
+        color: hsl(212, 19%, 41%);
         
-        right: 23rem;
-        position: relative;
-        display: flex;
-        background: white;
-        border-radius: 5px;
-       
-    }
-    #big-container{
-        width: 100%;
-        height: 20rem;
-       
     }
     #img2{
         width: 5rem;
         margin: 0 0 0 1.2rem;
-        /* border: 2px solid black; */
+       
+        
     }
     #small{
         width: 6rem;
         height: 5rem;
 }
-
-    .comment-section{
+    #big-container{
         width: 100%;
+        height: 20rem;
+       
+    }
+ 
+    .comment-section{
+        width: 90%;
         height: 23rem;
         margin: auto;
         margin-top: 2rem;
@@ -215,8 +299,6 @@ body{
     }
     #one{
         width: 100%;
-       
-       
     }
     #two{
         width: 100%;
@@ -234,86 +316,74 @@ body{
         border: none;
         border-radius: 7px;
     }
- 
-}
-
-
-/*... SECOND-BOX ...*/
-
-#second-con{
-    width: 40%;
-    height: 7rem;
-    /* border: 2px solid red; */
-    margin: 1rem 0 0 23rem;
-    display: flex;
-    background: white;
-    border-radius: 5px;
-   
-}
-
-#small{
-    width: 2.5rem;
-    height: 5rem;
-    /* border: 1px solid black; */
-    background: hsl(223, 19%, 93%);
-    margin: 10px 0 0 10px;
-    display: block;
-    border-radius: 6px;
-}
-#small img{
-    margin: 0 0 0 14px;
-}
-#small #score{
-    margin: 8px 0 0 10px;
-    color: hsl(212, 24%, 26%);
-}
-#image-con{
-    width: 110%;
-    height: 2.8rem;
-    /* border: 1px solid black; */
-    margin: 10px 0 0 10px;
-    display: flex;
-}
-#image-con h4{
-    color: hsl(212, 24%, 26%);
-}
-#imgc{
-    width: 4rem;
-    height: 2.8rem;
-    /* border: 1px solid black; */
-}
-#imgc img{
-    width: 60%;
-    height: 70%;
-}
-#time-created{
-    margin: 4px 0 0 10px;
-    font-size: 13px;
-    font-weight: 200px;
-    color: hsl(211, 10%, 45%);
-}
-#img2{
-    width: 5rem;
-    margin: 0 0 0 6rem;
-    /* border: 2px solid black; */
-}
-#img2 span{
-    color: rgb(60, 60, 200);
-    font-size: 14px;
-}
-
-
-
-.big #comment{
-    font-size: 12px;
-    margin: 0 0 0 10px;
-    color: hsl(212, 19%, 41%);
+    #first-con2{
+        width: 90%;
+        height: 9rem;
+        /* border: 2px solid red; */
+        margin: auto;
+        margin-top: 2rem;
+        display: flex;
+        background: white;
+        border-radius: 5px;
+       
+    }
+    #com2{
+        width: 85%;
+        
+        margin: 5px 0 0 10px;
+        
+    }
+    #image-con2{
+        width: 100%;
+        height: 2.8rem;
+        
+        margin: 10px 0 0 10px;
+        display: flex;
+       
+    }
+    #img22{
+        width: 5rem;
+        margin: 0 0 0 0.5rem;
+       
+       
+    }
+    #image-con h4{
+        font-size: 14px;
+        margin: 0;
+        color: hsl(212, 24%, 26%);
+    }
+    #image-con2 h4{
+        font-size: 14px;
+        margin: 0;
+        color: hsl(212, 24%, 26%);
+    }
+    .user-img{
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        top: -1.5rem;
+        left: 10px;
+        
+    }
+    .con-input{
+        width: 70%;
+        height: 3.8rem;
+        margin: 1rem 1rem 0 1.7rem;
+      
+    }
+    #nameInput{
+        width: 70%;
+        height: 3rem;
+    }
+    #scoreinput{
+        width: 70%;
+        height: 3rem;
+       
     
+    }
+    #time{
+        width: 70%;
+        height: 3rem;
 }
-#com{
-    width: 90%;
-    /* border: 1px solid yellow; */
 }
-
-
 

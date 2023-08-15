@@ -125,28 +125,28 @@ function replyBox(e){
 
   
 
-  const div = `<div id="second-con">
-  <div id="small">
+  const div = `<div id="first-con2">
+  <div id="small2">
      <img src="./images/icon-plus.svg" alt="">
       <p id="score">${ score}</p>
      <img src="./images/icon-minus.svg" alt="">
   </div>
   <div class="big">
-      <div id="image-con">
-          <div id="imgc">
+      <div id="image-con2">
+          <div id="imgc2">
           <img src="./images/avatars/image-juliusomo.png" alt="">
               
           </div>
           <h4 id="userName">${name}</h4> 
       <p id="time-created" >${timeCreated}</p>
-          <div id="img2">
+          <div id="img22">
               <img src="./images/icon-reply.svg" alt="">
               <span>Reply</span>
           </div>
           
       </div>
-      <div id="com">
-      <p id="comment">${ reply } </p>
+      <div id="com2">
+      <p id="comment2">${ reply } </p>
       
     </div>
   </div>
